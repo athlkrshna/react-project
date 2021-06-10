@@ -1,0 +1,135 @@
+.home__welcome-section {
+    background-color: #e2ad0e;
+    color: #000;
+    padding: 160px 0;
+  }
+  
+  .home__welcome-row {
+    align-items: center;
+  }
+  
+  .row {
+    display: flex;
+    margin-right: -15px;
+    margin-bottom: -15px;
+    margin-left: -15px;
+    flex-wrap: wrap;
+    align-content: stretch;
+  }
+  
+  .col1 {
+    margin-bottom: 15px;
+    padding-right: 50px;
+    padding-left: 50px;
+    flex: 1;
+    max-width: 60%;
+    flex-basis: 50%;
+  }
+  
+  .col2 {
+    margin-bottom: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    flex: 1;
+    max-width: 40%;
+    flex-basis: 50%;
+  }
+  .home__welcome-text-wrapper {
+    padding-top: 0;
+    padding-bottom: 60px;
+  }
+  
+  .top-line {
+    color: #f00946;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+  }
+  
+  .heading {
+    margin-bottom: 24px;
+    font-size: 64px;
+    line-height: 1.1;
+    font-weight: 600;
+    color: #e7b930;
+  }
+
+  .heading-dark{
+    margin-bottom: 24px;
+    font-size: 64px;
+    line-height: 1.1;
+    font-weight: 600;
+    color: #000;
+
+  }
+  
+  .dark {
+    color: #fff;
+  }
+  
+  .darkBg {
+    background-color: #0d0e11;
+  }
+  
+  .home__welcome-subtitle {
+    text-align: justify;
+    text-justify: inter-word;
+    color: #e7b930;
+    max-width: 1000px;
+    margin-bottom: 35px;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 1.4px;
+  }
+  .home__welcome-subtitle-dark{
+    text-align: justify;
+    text-justify: inter-word;
+    color: #000;
+    max-width: 800px;
+    margin-bottom: 35px;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 1.4px;
+  }
+  
+  .home__welcome-img-wrapper {
+    max-width: 555px;
+  }
+  
+  .home__welcome-img {
+    
+    max-width: 90%;
+    margin-top: 0;
+    margin-right: 0;
+    margin-left: 10px;
+    padding-right: 0;
+  }
+  
+  img {
+    opacity: 0.8;
+    border: 0;
+    max-width: 100%;
+    vertical-align: middle;
+    display: inline-block;
+  }
+  
+  @media screen and (max-width: 991px) {
+    .container {
+      padding-right: 30px;
+      padding-left: 30px;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .home__welcome-text-wrapper {
+      padding-bottom: 65px;
+    }
+  
+    .col {
+      max-width: 100%;
+      flex-basis: 100%;
+    }
+  }

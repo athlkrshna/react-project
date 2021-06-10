@@ -1,0 +1,128 @@
+.footer-container {
+    background-color: #0d0e11;
+    padding: 1rem 0 1rem 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .footer-subscription {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 24px;
+    padding: 24px;
+    padding-top: 46px;
+    color: #fabd04;
+  }
+  
+  .footer-subscription > p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+      'Lucida Sans', Arial, sans-serif;
+  }
+  
+  .footer-subscription-heading {
+    margin-bottom: 24px;
+    font-size: 24px;
+  }
+  
+  .footer-subscription-text {
+    margin-bottom: 24px;
+    font-size: 20px;
+  }
+
+  .footer-input-wrap{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    box-sizing:content-box;
+    outline: none;
+  }
+
+  .footer-input-items {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:space-between;
+  }
+
+  .footer-input {
+    background-color: #0d0e11;
+    color: #fff;
+    padding: 4px 12px;
+    font-size: 16px;
+    margin-right: 2px;
+    margin-bottom: 16px;
+    border: none;
+    border-bottom: 1px solid #e7b930;
+  }
+  
+
+  .footer-input-max-content {
+    background-color: #0d0e11;
+    color: #fff;
+    padding: 4px 12px;
+    border-radius: 2px;
+    font-size: 16px;
+    margin-bottom: 16px;
+    border: none;
+    border-bottom: 1px solid #e7b930;
+    width: 100%;
+  }
+  .footer-input-max {
+    width: 100%;
+  }
+  
+
+  .footer-input::placeholder {
+    color: #fff;
+  }
+
+  .footer-input-max-content::placeholder {
+    color: #fff;
+  }
+  
+  /* Social Icons */
+  .social-icon-link {
+    color: #e7b930;
+    font-size: 24px;
+  }
+  
+  .social-media {
+    background-color: #0d0e11;
+    width: 100%;
+  }
+     
+  .website-rights {
+    background-color: #0d0e11;
+    text-align: center;
+    color: #fff;
+    padding-bottom: 20px;
+  }
+  
+  @media screen and (max-width: 820px) {
+    .footer-links {
+      padding-top: 2rem;
+    }
+  
+    .footer-input {
+      width: 100%;
+    }
+  
+    .btn {
+      width: 100%;
+    }
+  
+    .footer-link-wrapper {
+      flex-direction: column;
+    }
+  
+    .social-media-wrap {
+      flex-direction: column;
+    }
+  }
